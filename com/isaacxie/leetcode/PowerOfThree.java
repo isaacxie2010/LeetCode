@@ -4,7 +4,7 @@ public class PowerOfThree {
 	//https://leetcode.com/problems/power-of-three/submissions/
 	
 	public boolean isPowerOfThree(int n) {
-		// log3(n) = log10(n)/log10(3) 
+		// log3(n) = log10(n) / log10(3) 
         return (Math.log10(n)/Math.log10(3)) % 1 == 0;
     }
 	
