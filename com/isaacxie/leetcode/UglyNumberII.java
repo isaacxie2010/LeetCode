@@ -5,6 +5,7 @@ import java.util.List;
 
 public class UglyNumberII {
 	// https://leetcode.com/problems/ugly-number-ii/
+	
 	public int nthUglyNumber(int n) {
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(1);
