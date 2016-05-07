@@ -1,0 +1,20 @@
+package com.isaacxie.leetcode;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContainsDuplicate {
+	// https://leetcode.com/problems/contains-duplicate/
+
+	public boolean containsDuplicate(int[] nums) {
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		for (int i = 0; i < nums.length; i++) {
+			if (map.containsKey(nums[i])) {
+				return true;
+			} else {
+				map.put(nums[i], 1);
+			}
+		}
+		return false;
+	}
+}
