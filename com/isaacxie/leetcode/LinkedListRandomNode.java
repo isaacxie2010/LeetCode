@@ -19,7 +19,7 @@ public class LinkedListRandomNode {
     	int val = curr.val;
     	
     	for(int i = 1; curr != null; i++) {
-    		if(random.nextInt(i) == 0) { // the possibility is 1/i each time
+    		if(random.nextInt(i) == 0) { // the possibility is 1/i each time 
     			val = curr.val; 
     		}
     		curr = curr.next;
