@@ -17,7 +17,7 @@ public class KthSmallestElementInASortedMatrix {
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {
 				if (pq.size() == k) {
-					if(pq.peek() > matrix[i][j]) {
+					if (pq.peek() > matrix[i][j]) {
 						pq.poll();
 						pq.add(matrix[i][j]);
 					}
