@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class _01_Matrix {
-	// https://leetcode.com/problems/01-matrix
+	// https://leetcode.com/problems/01-matrix/
 	
 	public List<List<Integer>> updateMatrix(List<List<Integer>> matrix) {
 		// BFS, intial queue with all 0s, and set matrix not-zero element
