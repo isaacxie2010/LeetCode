@@ -1,3 +1,5 @@
+package com.isaacxie.leetcode;
+
 public class _4SumII {
 	// https://leetcode.com/problems/4sum-ii
 	
