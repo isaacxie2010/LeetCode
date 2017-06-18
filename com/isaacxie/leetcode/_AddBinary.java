@@ -1,3 +1,5 @@
+package com.isaacxie.leetcode;
+
 public class _AddBinary {
 	// https://leetcode.com/problems/add-binary
 
