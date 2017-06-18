@@ -1,3 +1,5 @@
+package com.isaacxie.leetcode;
+
 public class AlienDictionary {
 	// https://leetcode.com/problems/alien-dictionary
 	
