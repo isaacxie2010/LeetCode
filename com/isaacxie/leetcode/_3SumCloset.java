@@ -1,6 +1,6 @@
 package com.isaacxie.leetcode;
 
-public class 3SumCloset {
+public class _3SumCloset {
 	// https://leetcode.com/problems/3sum-closest
 	
     public int threeSumClosest(int[] nums, int target) {
